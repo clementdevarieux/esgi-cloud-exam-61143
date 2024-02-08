@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  DB_CONNECT,
+  'postgres://db_postgre_exo_1_61143_user:je8IhihaJ1bgL1TiGF2wBSEHHL8wqozX@dpg-cn29upn109ks7394k0r0-a.frankfurt-postgres.render.com/db_postgre_exo_1_61143',
   {
     dialectOptions: {
       ssl: {
